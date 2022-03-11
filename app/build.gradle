@@ -18,6 +18,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "BASE_URL", "\"http://makeup-api.herokuapp.com/api/v1/\""
+        buildConfigField "String", "BASE_URL", ""
 
     }
 
